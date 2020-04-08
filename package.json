@@ -1,7 +1,7 @@
 {
-  "name": "@tuia/syncmock",
-  "version": "0.1.2",
-  "description": "sync mock ",
+  "name": "@vdts/netflavd",
+  "version": "0.0.1",
+  "description": "netflavd",
   "main": "./lib/index.js",
   "bin": {},
   "scripts": {
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/videomanagertools/name"
+    "url": "https://github.com/videomanagertools/netflavd"
   },
   "keywords": [
     "npm",
@@ -40,5 +40,7 @@
     "standard-version": "^7.0.1",
     "typescript": "^3.7.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "apify": "^0.20.2"
+  }
 }
