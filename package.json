@@ -1,0 +1,44 @@
+{
+  "name": "@tuia/syncmock",
+  "version": "0.1.2",
+  "description": "sync mock ",
+  "main": "./lib/index.js",
+  "bin": {},
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "clean": "rimraf lib",
+    "test": "npm run lint",
+    "lint": "eslint src test",
+    "build": "tsc -p .",
+    "release": "standard-version",
+    "postversion": "git push --follow-tags"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/videomanagertools/name"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "javascript"
+  ],
+  "author": "Dec-F",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.3",
+    "standard-version": "^7.0.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {}
+}
