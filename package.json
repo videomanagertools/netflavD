@@ -41,6 +41,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "apify": "^0.20.2"
+    "apify": "^0.20.2",
+    "axios": "^0.19.2"
   }
 }
